@@ -15,7 +15,6 @@ public class Producto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_producto")
     private Integer idProducto;
-
     private String nombre;
 
     @Column(name = "id_categoria")
@@ -29,7 +28,6 @@ public class Producto {
 
     @Column(name = "cantidad_stock")
     private String cantidadStock;
-
     private Boolean estado;
 
 }
