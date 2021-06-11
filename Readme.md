@@ -1,3 +1,7 @@
+-spring boot jpa
+-spring boot web started
+
+
 I used an architecture by layers oriented to domain
 
 DDD:
@@ -13,3 +17,5 @@ Implements the repository specifications
 
 Web layer:
 Controllers
+
+
